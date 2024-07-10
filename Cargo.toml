@@ -1,0 +1,17 @@
+[package]
+name = "busylight"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "busylight"
+path = "src/lib.rs"
+
+[[bin]]
+name = "busylight_bin"
+path = "src/bin.rs"
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+hex_color = "3.0.0"
+hidapi = "2.6.1"

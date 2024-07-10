@@ -1,6 +1,6 @@
 use hidapi::{DeviceInfo, HidApi, HidDevice};
 
-use crate::{Light, LightType, LightError, LuxaforLight};
+use crate::{Light, LightType, LuxaforLight};
 use crate::LightError::HidError;
 
 pub struct Busylight {
